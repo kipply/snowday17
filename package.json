@@ -1,0 +1,46 @@
+{
+  "name": "concierge-bot",
+  "version": "5.1.1",
+  "description": "Extensible general purpose chat bot.",
+  "main": "main.js",
+  "dependencies": {
+    "babel-plugin-transform-strict-mode": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-env": "^1.5.1",
+    "babel-register": "^6.3.13",
+    "babylon": "^6.8.0",
+    "coffee-script": "^1.10.0",
+    "colors": "^1.1.2",
+    "figlet": "^1.1.1",
+    "scoped-http-client": "^0.11.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node main.js",
+    "debug": "node main.js --debug --timestamp"
+  },
+  "engines": {
+    "node": "8.0.0"
+  },
+  "bin": {
+    "concierge": "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concierge/Concierge.git"
+  },
+  "author": "Matthew Knox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concierge/Concierge/issues"
+  },
+  "homepage": "https://github.com/Concierge/Concierge"
+}
